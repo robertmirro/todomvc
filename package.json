@@ -23,5 +23,22 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "private": true
+  "private": true,
+  "name": "todomvc",
+  "description": "> Helping you select an MV\\* framework",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertmirro/todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertmirro/todomvc/issues"
+  },
+  "homepage": "https://github.com/robertmirro/todomvc"
 }
