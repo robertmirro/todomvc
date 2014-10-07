@@ -9,6 +9,10 @@ angular.module('todomvc')
 	.controller('TodoCtrl', function TodoCtrl($scope, $routeParams, $filter, todoStorage) {
 		'use strict';
 
+		console.log( '$scope:' , $scope );
+		console.log( '$routeParams:' , $routeParams );
+		console.log( 'todoStorage:' , todoStorage );
+
 		var todos = $scope.todos = todoStorage.get();
 
 		$scope.newTodo = '';
