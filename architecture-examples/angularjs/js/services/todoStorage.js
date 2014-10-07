@@ -11,6 +11,7 @@ angular.module('todomvc')
 
 		return {
 			get: function () {
+				console.log( 'todoStorage: get(STORAGE_ID):' , localStorage.getItem(STORAGE_ID) );
 				return JSON.parse(localStorage.getItem(STORAGE_ID) || '[]');
 			},
 
